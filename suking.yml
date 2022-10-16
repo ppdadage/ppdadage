@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-16 11:06:36
+#  创建时间：2022-10-16 12:47:13
 #  模版：ACL4SSR
-#  节点数量：52
+#  节点数量：77
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -74,6 +74,31 @@ proxies:
   - {"type":"vmess","name":"Relay_|2.09Mb","ws-opts":{"path":"/v2ray","headers":{"host":"aus01.paopaocloud.cyou"}},"server":"aus01.paopaocloud.cyou","port":"443","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"Pool_|25.64Mb","ws-opts":{"path":"/path/051111230910"},"server":"23.225.57.222","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"|2.56Mb","server":"103.159.132.102","port":"31372","uuid":"c11236af-56a6-49b3-c1b9-7b54ac3acb42","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"_162","server":"172.99.190.149","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"github.com/Pawdroid-美国CloudFlare公司CDN节点40","ws-opts":{"path":"/ray","headers":{"host":"amdjp.fineyoo.cf"}},"server":"amdjp.fineyoo.cf","port":"443","uuid":"023e3958-9565-4086-c765-5e977ef6f166","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com-美国41","server":"206.119.112.6","port":8189,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":10,"cipher":"auto","network":"auto","tls":true}
+  - {"type":"vmess","name":"中国(TG频道:)_1","server":"116.129.254.6","port":"9005","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/Pawdroid-美国CloudFlare公司CDN节点7","ws-opts":{"path":"/ray","headers":{"host":"amdus.ptuu.tk"}},"server":"amdus.ptuu.tk","port":"443","uuid":"ec762b70-3800-42b8-80fe-56ac59c8bf29","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国=tg频道:2=10","ws-opts":{"path":"/aries","headers":{"host":"ee.cloudflare.quest"}},"server":"ee.cloudflare.quest","port":"80","uuid":"f9247df4-02d5-4b31-acc5-4022652c5953","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳CN33→v2cross.com","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/Pawdroid-希腊11","ws-opts":{"path":"/getweather"},"server":"aop.ssfree.ru","port":"443","uuid":"180cae9c-4b10-11ed-bfc7-000017022008","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇺🇸US12→v2cross.com","server":"aewfhe5z1pokrkw8bi9g03.xingbayun.buzz","port":10001,"password":"862e68d2-05f3-4253-9116-819623bb7335","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_1040","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk06.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":10009,"uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE4→v2cross.com","ws-opts":{"path":"/vmess","headers":{"host":"sg-v.sshmax.xyz"}},"server":"sg-v.sshmax.xyz","port":"80","uuid":"0baaf014-af04-4028-be53-f5c75bb276ae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸US_847","server":"172.99.190.87","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"github.com/Pawdroid-美国41","server":"206.119.112.6","port":8189,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":10,"cipher":"auto","network":"auto","tls":true}
+  - {"type":"trojan","name":"英国(TG频道:@kxswa)","server":"aewfhe5z1pokrkw8bi9g15.xingbayun.buzz","port":10002,"password":"862e68d2-05f3-4253-9116-819623bb7335","udp":true,"skip-cert-verify":true,"sni":"aewfhe5z1pokrkw8bi9g15.xingbayun.buzz"}
+  - {"type":"vmess","name":"中国(TG频道:)_2","server":"221.131.165.72","port":"9005","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳CN34→v2cross.com","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"default_name_1","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.238.164","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国(TG频道:)_3","server":"221.131.165.72","port":"9032","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/Pawdroid-新加坡Amazon数据中心1","server":"54.151.172.209","port":"443","uuid":"20a1e3d1-9fb0-4f09-8bc9-b75ec31a1858","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"_160","server":"172.99.190.149","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇹🇼TW_05","server":"116.129.254.6","port":9016,"uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中国(TG频道:)_4","server":"221.131.165.72","port":"11925","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇺🇸US_549","server":"172.99.190.87","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vmess","name":"中国(TG频道:)_5","server":"116.129.254.6","port":"11925","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇺🇸US_891","server":"172.99.190.149","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -132,6 +157,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -190,6 +240,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -248,6 +323,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
   - name: 📲 电报信息
     type: select
     proxies:
@@ -305,6 +405,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -362,6 +487,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -419,6 +569,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -493,6 +668,31 @@ proxy-groups:
       - Relay_|2.09Mb
       - Pool_|25.64Mb
       - '|2.56Mb'
+      - _162
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点40
+      - v2cross.com-美国41
+      - 中国(TG频道:)_1
+      - github.com/Pawdroid-美国CloudFlare公司CDN节点7
+      - 美国=tg频道:2=10
+      - 🇨🇳CN33→v2cross.com
+      - github.com/Pawdroid-希腊11
+      - 🇺🇸US12→v2cross.com
+      - Relay_🇺🇸US-🇺🇸US_1040
+      - 🇩🇪DE4→v2cross.com
+      - 🇺🇸US_847
+      - github.com/Pawdroid-美国41
+      - 英国(TG频道:@kxswa)
+      - 中国(TG频道:)_2
+      - 🇨🇳CN34→v2cross.com
+      - default_name_1
+      - 中国(TG频道:)_3
+      - github.com/Pawdroid-新加坡Amazon数据中心1
+      - _160
+      - Relay_🇨🇳CN-🇹🇼TW_05
+      - 中国(TG频道:)_4
+      - 🇺🇸US_549
+      - 中国(TG频道:)_5
+      - 🇺🇸US_891
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
